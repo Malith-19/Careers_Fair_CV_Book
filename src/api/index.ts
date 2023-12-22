@@ -90,14 +90,10 @@ export const preprocess = (raw: any) => {
         },
         {
             heading: raw['School Name'],
-            subheading: "G.C.E. Advanced Level Examination 2017",
+            subheading: "G.C.E. Advanced Level Examination",
             description: `${alResults} | IR - ${raw['A/L - Island Rank']}`
         }
     ]
-
-    if (data.index.startsWith('170')) {
-        data.education[1].subheading = "G.C.E. Ordinary Level Examination 2016"
-    }
 
     // experiences
     data.experiences = [ {
