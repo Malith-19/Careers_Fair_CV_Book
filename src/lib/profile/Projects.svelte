@@ -9,9 +9,14 @@
 
 {#each d as project}
     <div class="my-2">
-        <p class="font-bold text-xs w-[90%]">
-            {project.heading}
-        </p>
+        <div class="flex justify-between">
+            <p class="font-bold text-xs">
+                {project.heading}
+            </p>
+            <p class="text-secondary font-medium text-[10px]">
+                {project.date}
+            </p>
+        </div>
         <p class="text-secondary font-medium text-xs">
             {project.subheading}
         </p>

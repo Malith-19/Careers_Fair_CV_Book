@@ -124,10 +124,12 @@ export const preprocess = (raw: any) => {
         const techStack = (raw[`Project 0${i} - Tech Stack`] || '').split(',').map((skill: string) => skill.trim())
         const description = raw[`Project 0${i} - Description`]
         const subheading = techStack.join(' | ')
+        const date = shortDateRange(raw[`Project 0${i} - Start Date`], raw[`Project 0${i} - End Date`])
         if (heading) {
             data.projects.push({
                 heading,
                 subheading,
+                date,
                 description,
             })
         }
