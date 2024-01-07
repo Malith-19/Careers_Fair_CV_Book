@@ -13,7 +13,7 @@
             The students enrolled in the B.Sc. Engineering Honors Degree specializing in Computer Science & Engineering
             possess the proficiency and aptitude to effectively adapt to digital transformation. As part of their
             comprehensive academic program, these students have a broad understanding of computer systems, software
-            development, data analytics, and other relevant fields. The <strong>CSE Careers Day 2023</strong> provides
+            development, data analytics, and other relevant fields. The <strong>CSE Careers Day 2024</strong> provides
             the opportunity
             for organizations to interact and evaluate the potential of recruiting and employing individuals of such
             high competence.

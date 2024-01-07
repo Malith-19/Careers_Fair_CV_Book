@@ -153,13 +153,21 @@ export const preprocess = (raw: any) => {
 
 function shortMonthYear(date: string) {
     if (!date) return '';
-    const d = new Date(date);
+    var parts = date.split("/");
+	var d = new Date(parseInt(parts[2], 10),
+                  	parseInt(parts[1], 10) - 1,
+                  	parseInt(parts[0], 10));
     return `${d.toLocaleString('default', { month: 'short' }).toUpperCase()} ${d.getFullYear()}`;
 }
 
 function shortDateRange(start: string, end: string) {
     const startDate = shortMonthYear(start);
-    let endDate = shortMonthYear(end);
+    let endDate;
+    if (end == 'Present') {
+    	endDate = 'Present';
+    } else {
+    	endDate = shortMonthYear(end);
+    }
     if (!endDate) {
         endDate = 'Present'
     }

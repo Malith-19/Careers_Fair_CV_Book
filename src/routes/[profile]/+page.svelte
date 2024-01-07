@@ -30,7 +30,7 @@
 </script>
 
 <svelte:head>
-    <title>{index} | CSE 2023 Carriers Fair CV Book </title>
+    <title>{index} | CSE 2024 Carriers Fair CV Book </title>
 </svelte:head>
 
 {#if loading}
