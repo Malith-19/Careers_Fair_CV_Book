@@ -10,6 +10,13 @@ export async function getData() {
     return await data.json();
 }
 
+function prepareLink(link: string) {
+	if (!link.includes('://')) {
+		link = 'https://' + link;
+	}
+	return link;
+}
+
 export const preprocess = (raw: any) => {
      const data: any = {}
 
@@ -35,12 +42,12 @@ export const preprocess = (raw: any) => {
         {
             icon: 'github.png',
             label: raw['GitHub Username'],
-            link: raw['GitHub Link'],
+            link: prepareLink(raw['GitHub Link']),
         },
         {
             icon: 'linkedin.png',
             label: raw['LinkedIn Username'],
-            link: raw['LinkedIn Link'],
+            link: prepareLink(raw['LinkedIn Link']),
         }
     ]
 

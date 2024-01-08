@@ -11,8 +11,8 @@
         try {
             data = await getData();
             data = data.map(preprocess);
+            console.log(data);
             data = data.sort((a, b) => a.lastName.localeCompare(b.lastName));
-            console.log('indexes', data.map(p => p.index));
         } catch (e) {
             throw error(500, {message: e.message});
         } finally {
