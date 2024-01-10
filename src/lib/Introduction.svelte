@@ -10,23 +10,27 @@
         <img src="logo_dark.svg" alt="cover-design" class="absolute w-[30%] bottom-0 right-2 z-10"/>
         <h1 class="text-3xl text-center uppercase"> Introduction</h1>
         <p class="text-lg mt-6 text-justify indent-[40px]">
-            The students enrolled in the B.Sc. Engineering Honors Degree specializing in Computer Science & Engineering
-            possess the proficiency and aptitude to effectively adapt to digital transformation. As part of their
-            comprehensive academic program, these students have a broad understanding of computer systems, software
-            development, data analytics, and other relevant fields. The <strong>CSE Careers Day 2024</strong> provides
-            the opportunity
-            for organizations to interact and evaluate the potential of recruiting and employing individuals of such
-            high competence.
+            We proudly present to you the CSE Careers Day 2024 booklet, showcasing the exceptional talents of B.Sc.
+            Engineering Honors Degree students specializing in Computer Science & Engineering from the '19 Batch.
+            These students are well-equipped to thrive in the era of digital transformation, possessing a solid
+            foundation in computer systems, software development, data analytics, and related fields.
         </p>
         <p class="text-lg mt-6 text-justify indent-[40px]">
-            This booklet consists of the résumés of the CSE undergraduates of the ‘18 Batch who are expected to graduate
-            soon. These résumés highlight their most unique competencies, experience, and knowledge amassed from diverse
-            domains, both before and during their undergraduate period.
+            Within these pages, you'll find a curated collection of resumes, meticulously organized in alphabetical
+            order by the last names of our undergraduates. Each resume highlights the unique competencies, experiences,
+            and knowledge these individuals have gained, both prior to and during their undergraduate journey. It's a
+            testament to their diverse skill sets and high competence.
         </p>
         <p class="relative z-50 text-lg mt-6 text-justify indent-[40px]">
-            To facilitate convenience of use, these resumes adhere to a standardized format and are organized
-            alphabetically by the last name of each undergraduate. Furthermore, an index is located at the end of the
-            booklet for reference by first name, which lists them accordingly.
+            We've ensured simplicity and ease of use by adhering to a standardized format, making it effortless for
+            organizations to navigate and evaluate the potential of recruiting these promising individuals. A handy
+            index at the end of the booklet, sorted by first names, further enhances the convenience of reference.
+        </p>
+        <p class="relative z-50 text-lg mt-6 text-justify indent-[40px]">
+            This compilation serves as a valuable resource for organizations seeking to engage with and assess the
+            outstanding talent emerging from our Computer Science & Engineering program. We invite you to explore the
+            wealth of capabilities these students bring to the table and consider the exciting possibilities that await
+            through collaboration with these future professionals.
         </p>
     </div>
 </Page>

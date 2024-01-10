@@ -92,7 +92,7 @@ export const preprocess = (raw: any) => {
     data.education = [
         {
             heading: "University of Moratuwa",
-            subheading: "B.Sc. Eng Hons (Computer Science)",
+            subheading: "B.Sc. Engineering Honours Degree specialized in Computer Science and Engineering",
             description: `CGPA: ${cgpa}`
         },
         {
